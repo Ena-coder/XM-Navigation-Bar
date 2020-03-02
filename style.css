@@ -1,0 +1,93 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+a{
+  text-decoration: none;
+}
+#header{
+  height: 40px;
+  background-color: aliceblue;
+  width: 100%;
+}
+#fixed{
+  position: fixed;
+  margin: 0px;
+  top: -65px;
+  transition: all .3s linear;
+}
+#fixed.active{
+  top: 0px;
+}
+
+
+
+
+
+
+
+
+
+.nav-bar{
+  width: 100%;
+  background-color: white;
+  height: 63px;
+  border:solid 1px rgb(224, 224, 224);
+  border-left: 0px;
+  border-right: 0px;
+}
+.nav-bar .container{
+  width: 1226px;
+  background-color: rgba(255, 255, 255, 1);
+  margin: 0 auto;
+  height: 60px;
+}
+.nav-bar .container .project-name{
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.nav-bar .container .right{
+  display: inline-block;
+  float: right;
+  height: 30px;
+  margin-top: 17px;
+}
+.nav-bar .container .right .separator{
+  color: #e0e0e0;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0px 3.5px;
+}
+.nav-bar .container .right a:not(.buy-now){
+  color: #616161;
+  font-size: 14px;
+  line-height: 21px;
+}
+.nav-bar .container .right a:not(.buy-now):hover{
+  color: #ff6700;
+}
+.nav-bar .container .right .cur{
+  color: #ff6700 !important;
+}
+/* 立即购买 */
+.nav-bar .container .right .buy-now{
+  width: 118px;
+  height: 28px;
+  border: 1px solid rgb(255, 103, 0);
+  display: inline-block;
+  margin-left: 5px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  line-height: 28px;
+  background-color: #ff6700;
+  transition: all .3s;
+}
+.nav-bar .container .right .buy-now:hover{
+  /* color: white; */
+  background-color: #f25807;
+  border-color: #f25807;
+}
